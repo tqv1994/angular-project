@@ -1,0 +1,157 @@
+{
+	"baseName": "project",
+	"databaseType": "mysql",
+	"hostName": "localhost",
+	"databaseName": "khoaluan",
+	"userName": "root",
+	"password": "",
+	"entities": [
+		{
+			"name": "[files]",
+			"attrs": [
+				{
+					"attrName": "id",
+					"attrType": "Integer",
+					"min": "",
+					"max": "100",
+					"enumValues": [],
+					"required": false
+				},
+				{
+					"attrName": "title",
+					"attrType": "String",
+					"minLength": "3",
+					"maxLength": "128",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "file",
+					"attrType": "String",
+					"minLength": "3",
+					"maxLength": "128",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "download",
+					"attrType": "Integer",
+					"min": "100",
+					"max": "",
+					"enumValues": [],
+					"required": false
+				},
+				{
+					"attrName": "auther",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "",
+					"enumValues": [],
+					"required": false
+				},
+				{
+					"attrName": "text",
+					"attrType": "String",
+					"minLength": "1024",
+					"maxLength": "1024",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "time",
+					"attrType": "Integer",
+					"min": "",
+					"max": "",
+					"enumValues": [],
+					"required": false
+				},
+				{
+					"attrName": "status",
+					"attrType": "Integer",
+					"min": "",
+					"max": "",
+					"enumValues": [],
+					"required": false
+				}
+			]
+		},
+		{
+			"name": "user",
+			"attrs": [
+				{
+					"attrName": "id",
+					"attrType": "Integer",
+					"min": "",
+					"max": "",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "name",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "128",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "username",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "128",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "email",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "128",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "password",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "100",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "session_token",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "128",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "time\\",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "",
+					"enumValues": [],
+					"required": false
+				},
+				{
+					"attrName": "time",
+					"attrType": "Integer",
+					"min": "",
+					"max": "",
+					"enumValues": [],
+					"required": false
+				},
+				{
+					"attrName": "status",
+					"attrType": "Integer",
+					"min": "",
+					"max": "",
+					"enumValues": [],
+					"required": false
+				}
+			]
+		}
+	],
+	"composer": true
+}
